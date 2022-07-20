@@ -22,7 +22,7 @@ public static void main(String[] args) throws InterruptedException {
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//input[@name='cppEmailOrUsername']")).sendKeys("eraiyanbu07@gmail.com");
-		
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[text()='Send Login Link']")).click();
 	
 }
